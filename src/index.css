@@ -142,11 +142,15 @@ form {
   } 
 }
 
-
+.clima{
+  font-family: sans-serif;
+}
 .clima> p:first-of-type{
   font-size: 6rem;
 }
-
+.clima h2{
+  text-align: center;
+}
 .clima p{
   text-align: center;
   margin: 0;
@@ -155,6 +159,7 @@ form {
 .clima p span{
   font-size: 1rem;
   vertical-align: super;
+  font-weight: bold;
 }
 
 .temp_min_max{
